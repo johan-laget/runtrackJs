@@ -1,0 +1,16 @@
+.container {
+    border: 1px solid black;
+    min-height: 50vh;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .slot {
+    flex: 1;
+    border: 2px dashed #e6e6e6;
+  }
+  
+  .slot img {
+    width: 100%;
+    height: auto;
+  }
