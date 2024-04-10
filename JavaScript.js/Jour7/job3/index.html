@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- IMPORTS Materialize-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Accueil</a></li>
+                    <li><a href="badges.html">Inscription</a></li>
+                    <li><a href="collapsible.html">Connexion</a></li>
+                    <li><a href="collapsible.html">Rechercher</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main styles">
+        <div class="container"> <!-- Ajout d'un conteneur pour centrer le contenu -->
+            <form class="my-4"> <!-- Ajout de la classe 'my-4' pour une marge sur le haut et le bas -->
+                <div class="row"> <!-- Ajout d'une rangée pour les colonnes Bootstrap -->
+                    <div class="col s12"> <!-- Colonne prenant la largeur de 12 colonnes sur tous les écrans -->
+                        <div class="input-field">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Prénom</label>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="input-field">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Nom</label>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="input-field">
+                            <input id="address" type="text" class="validate">
+                            <label for="address">Adresse</label>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="input-field">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Mot de passe</label>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="input-field">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Envoyer
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Liens:</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Accueil
+                            </a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Inscription</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Connexion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Rechercher</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
